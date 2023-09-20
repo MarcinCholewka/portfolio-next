@@ -1,12 +1,17 @@
 "use client";
 
-import React from "react";
 import { motion } from "framer-motion";
+import { useTranslations, useLocale } from "next-intl";
+import cx from "classnames";
 import Link from "next/link";
+import React from "react";
 
 import { links } from "@/lib/data";
 
-export const Header = () => {
+export const Header = async () => {
+  const t = useTranslations("Navigation");
+  const locale = useLocale();
+
   return (
     <header className="z-[999] relative">
       <motion.div
@@ -25,9 +30,14 @@ export const Header = () => {
             >
               <Link
                 href={link.hash}
-                className="flex w-full items-center justify-center px-3 py-3 hover:text-gray-950 transition"
+                className={cx(
+                  "flex w-full items-center justify-center px-3 py-3 hover:text-gray-950 transition",
+                  {
+                    ["px-0"]: locale === "pl",
+                  }
+                )}
               >
-                {link.name}
+                {t(link.name)}
               </Link>
             </motion.li>
           ))}

@@ -1,32 +1,33 @@
-import React from "react";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
+import React from "react";
+
 import definedLearning from "@/public/defined-learning.png";
 import squadlocker from "@/public/squadlocker.png";
 
 export const links = [
   {
-    name: "Home",
+    name: "home",
     hash: "#home",
   },
   {
-    name: "About",
+    name: "about",
     hash: "#about",
   },
   {
-    name: "Projects",
+    name: "projects",
     hash: "#projects",
   },
   {
-    name: "Skills",
+    name: "skills",
     hash: "#skills",
   },
   {
-    name: "Experience",
+    name: "experience",
     hash: "#experience",
   },
   {
-    name: "Contact",
+    name: "contact",
     hash: "#contact",
   },
 ] as const;

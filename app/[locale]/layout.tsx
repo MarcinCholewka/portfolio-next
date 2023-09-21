@@ -1,7 +1,7 @@
+import cx from "classnames";
 import { Inter } from "next/font/google";
 import { notFound } from "next/navigation";
 import { useLocale, useMessages, NextIntlClientProvider } from "next-intl";
-import cx from "classnames";
 
 import { Header } from "@/components/Header";
 

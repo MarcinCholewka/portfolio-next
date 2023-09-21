@@ -1,10 +1,10 @@
 "use client";
 
-import { motion } from "framer-motion";
-import { useTranslations, useLocale } from "next-intl";
 import cx from "classnames";
 import Link from "next/link";
 import React from "react";
+import { motion } from "framer-motion";
+import { useTranslations, useLocale } from "next-intl";
 
 import { links } from "@/lib/data";
 

@@ -3,7 +3,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-export const SectionDevider = () => {
+export const SectionDivider = () => {
   return (
     <motion.div
       className="bg-violet-300 my-24 h-16 w-1 rounded-full hidden sm:block"

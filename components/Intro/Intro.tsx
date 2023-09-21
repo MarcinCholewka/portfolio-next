@@ -1,14 +1,17 @@
 "use client";
 
+import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import React from "react";
-import { motion } from "framer-motion";
 
 import authorImage from "@/public/marcin_cholewka.jpeg";
 
 export const Intro = () => {
+  const t = useTranslations("Intro");
+
   return (
-    <section>
+    <section className="mb-28 max-w-[50rem] text-center sm:mb-0">
       <div className="flex items-center justify-center">
         <div className="relative">
           <motion.div
@@ -39,6 +42,17 @@ export const Intro = () => {
           </motion.span>
         </div>
       </div>
+      <motion.p
+        className="mb-10 mt-10 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+        initial={{ opacity: 0, y: 100 }}
+        animate={{ opacity: 1, y: 0 }}
+      >
+        {t.rich("text", {
+          important: (chunks) => <b>{chunks}</b>,
+          italic: (chunks) => <i>{chunks}</i>,
+          underline: (chunks) => <span className="underline">{chunks}</span>,
+        })}
+      </motion.p>
     </section>
   );
 };

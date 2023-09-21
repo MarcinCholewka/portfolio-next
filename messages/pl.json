@@ -6,5 +6,8 @@
     "skills": "Umiejętności",
     "experience": "Doświadczenie",
     "contact": "Kontakt"
+  },
+  "Intro": {
+    "text": "<important>Witam, jestem Marcin.</important> Jestem <important>frontend developerem</important> z <important>4-letnim</important> doświadczeniem. Lubię budować <italic>strony i aplikacje</italic>. Skupiam się na <underline>React(Next.js)</underline>."
   }
 }

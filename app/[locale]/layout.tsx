@@ -13,18 +13,17 @@ type Params = {
   locale: "pl" | "en";
 };
 
+type Props = {
+  children: React.ReactNode;
+  params: Params;
+};
+
 export const metadata = {
   title: "Marcin Cholewka",
   description: "I'm a frontend developer",
 };
 
-export default function RootLayout({
-  children,
-  params,
-}: {
-  children: React.ReactNode;
-  params: Params;
-}) {
+export default function RootLayout({ children, params }: Props) {
   const locale = useLocale();
   const messages = useMessages();
 

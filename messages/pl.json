@@ -11,5 +11,10 @@
     "contactMe": "Skontaktuj się ze mną",
     "downloadCV": "Pobierz moje CV",
     "text": "<important>Witam, mam na imię Marcin.</important> Jestem <important>frontend developerem</important> z <underline>ponad 4-letnim</underline> doświadczeniem w budowaniu stron internetowych w <important>React </important>. Skupiam się na <underline>React(Next.js)</underline>."
+  },
+  "About": {
+    "heading": "O mnie",
+    "mainInfo": "Jestem programistą front-end z dogłębną znajomością React.js i jego podstawowych zasad, a także stylizacji układu front-endu. Posiadam silne zdolności komunikacyjne, charakteryzujące się doskonałą efektywnością interpersonalną w interakcjach indywidualnych i zespołowych. Przez ostatnie kilka lat zdobyłem doświadczenie w projektowaniu i wdrażaniu wysokiej jakości, eleganckiego oprogramowania SaaS dla aplikacji webowych i mobilnych. Moim głównym stosem jest React, ale znam też TypeScript. Zawsze chcę uczyć się nowych technologii. Obecnie poszukuję pracy na pełen etat jako front-end developer.",
+    "hobby": "Kiedy nie koduję, spędzam czas z rodziną. Lubię jeździć na motocyklach i ciągle szkolę swoje umiejętności jazdy. Zacząłem ćwiczyć karate z synem, dzięki czemu czuję się lepiej podczas wykonywania codziennych czynności. Lubię też uczyć się nowych rzeczy. Aktualnie staram się poszerzać swoją wiedzę na temat Node.js."
   }
 }

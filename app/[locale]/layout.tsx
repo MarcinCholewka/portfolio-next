@@ -36,7 +36,10 @@ export default function RootLayout({
   return (
     <html lang={locale}>
       <body
-        className={cx(inter.className, "relative text-gray-950 h-[5000px]")}
+        className={cx(
+          inter.className,
+          "relative text-gray-950 h-[5000px] pt-24 sm:pt-32"
+        )}
       >
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Header />

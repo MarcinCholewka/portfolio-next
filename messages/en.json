@@ -6,5 +6,10 @@
     "skills": "Skills",
     "experience": "Experience",
     "contact": "Contact"
+  },
+  "Intro": {
+    "contactMe": "Contact me here",
+    "downloadCV": "Download CV",
+    "text": "<important>Hello, I'm Marcin.</important> I'm a <important>front-end developer</important> with <underline>over 4 years</underline> of experience in building websites in <important>React</important>. My focus is <underline>React(Next.js)</underline>."
   }
 }

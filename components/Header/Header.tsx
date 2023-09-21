@@ -31,9 +31,9 @@ export const Header = async () => {
               <Link
                 href={link.hash}
                 className={cx(
-                  "flex w-full items-center justify-center px-3 py-3 hover:text-gray-950 transition",
+                  "flex w-full items-center justify-center px-3 sm:px-0 py-3 hover:text-gray-950 transition",
                   {
-                    ["px-0"]: locale === "pl",
+                    ["px-3"]: locale === "en",
                   }
                 )}
               >

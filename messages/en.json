@@ -8,6 +8,8 @@
     "contact": "Contact"
   },
   "Intro": {
-    "text": "<important>Hello, I'm Marcin.</important> I'm a <important>front-end developer</important> with <important>4 years</important> of experience. I enjoy building <italic>sites & apps</italic>. My focus is <underline>React(Next.js)</underline>."
+    "contactMe": "Contact me here",
+    "downloadCV": "Download CV",
+    "text": "<important>Hello, I'm Marcin.</important> I'm a <important>front-end developer</important> with <underline>over 4 years</underline> of experience in building websites in <important>React</important>. My focus is <underline>React(Next.js)</underline>."
   }
 }

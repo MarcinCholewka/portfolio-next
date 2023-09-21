@@ -1,6 +1,6 @@
 {
   "Navigation": {
-    "home": "Stron Główna",
+    "home": "Strona Główna",
     "about": "O mnie",
     "projects": "Projekty",
     "skills": "Umiejętności",
@@ -8,6 +8,8 @@
     "contact": "Kontakt"
   },
   "Intro": {
-    "text": "<important>Witam, jestem Marcin.</important> Jestem <important>frontend developerem</important> z <important>4-letnim</important> doświadczeniem. Lubię budować <italic>strony i aplikacje</italic>. Skupiam się na <underline>React(Next.js)</underline>."
+    "contactMe": "Skontaktuj się ze mną",
+    "downloadCV": "Pobierz moje CV",
+    "text": "<important>Witam, mam na imię Marcin.</important> Jestem <important>frontend developerem</important> z <underline>ponad 4-letnim</underline> doświadczeniem w budowaniu stron internetowych w <important>React </important>. Skupiam się na <underline>React(Next.js)</underline>."
   }
 }

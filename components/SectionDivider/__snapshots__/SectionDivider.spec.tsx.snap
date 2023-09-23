@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SectionDivider renders without crashing 1`] = `
+<div>
+  <div
+    class="bg-violet-300 my-16 h-16 w-1 rounded-full hidden sm:block"
+    data-testid="section-divider"
+    style="opacity: 0; transform: translateY(100px) translateZ(0);"
+  />
+</div>
+`;

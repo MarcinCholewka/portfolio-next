@@ -11,5 +11,10 @@
     "contactMe": "Contact me here",
     "downloadCV": "Download CV",
     "text": "<important>Hello, I'm Marcin.</important> I'm a <important>front-end developer</important> with <underline>over 4 years</underline> of experience in building websites in <important>React</important>. My focus is <underline>React(Next.js)</underline>."
+  },
+  "About": {
+    "heading": "About me",
+    "mainInfo": "I am a front-end developer with in-depth knowledge of React.js and its core principles, as well as front-end layout styling. I have strong communication skills, characterized by excellent interpersonal effectiveness in individual and team interactions. Over the last few years, I have gained experience in designing and implementing high-quality, elegant SaaS software for web and mobile applications. My core stack is React, but I also know TypeScript. I always want to learn new technologies. I am currently looking for a full-time job as a front-end developer.",
+    "hobby": "When I'm not coding, I spend time with my family. I like riding motorcycles and I'm constantly training my riding skills. I started practicing karate with my son, which makes me feel better when doing everyday activities. I also like learning new things. I'm currently trying to expand my knowledge of Node.js."
   }
 }

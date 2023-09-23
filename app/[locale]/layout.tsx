@@ -1,30 +1,30 @@
-import cx from "classnames";
-import { Inter } from "next/font/google";
-import { notFound } from "next/navigation";
-import { useLocale, useMessages, NextIntlClientProvider } from "next-intl";
+import cx from 'classnames';
+import { Inter } from 'next/font/google';
+import { notFound } from 'next/navigation';
+import { useLocale, useMessages, NextIntlClientProvider } from 'next-intl';
 
-import { Header } from "@/components/Header";
+import { Header } from '@/components/Header';
+import { type Languages } from '@/types';
 
-import "./globals.css";
+import './globals.css';
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ['latin'] });
 
 type Params = {
-  locale: "pl" | "en";
+  locale: Languages;
+};
+
+type Props = {
+  children: React.ReactNode;
+  params: Params;
 };
 
 export const metadata = {
-  title: "Marcin Cholewka",
+  title: 'Marcin Cholewka',
   description: "I'm a frontend developer",
 };
 
-export default function RootLayout({
-  children,
-  params,
-}: {
-  children: React.ReactNode;
-  params: Params;
-}) {
+export default function RootLayout({ children, params }: Props) {
   const locale = useLocale();
   const messages = useMessages();
 
@@ -35,12 +35,7 @@ export default function RootLayout({
 
   return (
     <html lang={locale}>
-      <body
-        className={cx(
-          inter.className,
-          "relative text-gray-950 h-[5000px] pt-24 sm:pt-32"
-        )}
-      >
+      <body className={cx(inter.className, 'relative text-gray-950 h-[5000px] pt-24 sm:pt-32')}>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Header />
           {children}

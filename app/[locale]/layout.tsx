@@ -4,13 +4,14 @@ import { notFound } from 'next/navigation';
 import { useLocale, useMessages, NextIntlClientProvider } from 'next-intl';
 
 import { Header } from '@/components/Header';
+import { type Languages } from '@/types';
 
 import './globals.css';
 
 const inter = Inter({ subsets: ['latin'] });
 
 type Params = {
-  locale: 'pl' | 'en';
+  locale: Languages;
 };
 
 type Props = {

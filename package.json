@@ -9,7 +9,7 @@
     "lint": "next lint",
     "lint-staged": "lint-staged --config lint-staged.config.js",
     "test:watch": "jest --watchAll",
-    "test": "jest --maxWorkers=50%",
+    "test": "jest",
     "test:ci": "jest --ci",
     "prepare": "husky install"
   },
@@ -25,6 +25,7 @@
     "lodash": "^4.17.21",
     "next": "13.4.19",
     "next-intl": "^3.0.0-beta.18",
+    "node": "^20.6.0",
     "postcss": "8.4.30",
     "react": "18.2.0",
     "react-dom": "18.2.0",

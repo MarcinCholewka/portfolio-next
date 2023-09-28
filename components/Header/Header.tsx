@@ -9,7 +9,7 @@ import { useTranslations, useLocale } from 'next-intl';
 import { links } from '@/lib/data';
 import { type Languages } from '@/types';
 
-export const Header = async () => {
+export const Header = () => {
   const t = useTranslations('Navigation');
   const locale: Languages = useLocale() as Languages;
 

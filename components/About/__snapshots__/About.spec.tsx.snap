@@ -7,7 +7,7 @@ exports[`<About /> renders without crashing 1`] = `
     style="opacity: 0; transform: translateY(100px) translateZ(0);"
   >
     <h2
-      class="text-3xl font-medium capitalize mb-8"
+      class="text-3xl text-center font-medium capitalize mb-8"
     >
       About me
     </h2>

@@ -5,5 +5,7 @@ type Props = {
 };
 
 export const SectionHeading = ({ children }: Props) => {
-  return <h2 className='text-3xl text-center font-medium capitalize mb-8'>{children}</h2>;
+  return (
+    <h2 className='text-3xl text-slate-200 text-center font-medium capitalize mb-8'>{children}</h2>
+  );
 };

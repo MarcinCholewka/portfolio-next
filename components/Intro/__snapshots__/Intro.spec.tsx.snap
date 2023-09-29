@@ -3,7 +3,7 @@
 exports[`<Intro /> renders without crashing 1`] = `
 <div>
   <section
-    class="mb-28 max-w-[50rem] text-center sm:mb-0"
+    class="max-w-[50rem] text-center sm:mb-0"
   >
     <div
       class="flex items-center justify-center"
@@ -69,7 +69,7 @@ exports[`<Intro /> renders without crashing 1`] = `
       style="opacity: 0; transform: translateY(100px) translateZ(0);"
     >
       <a
-        class="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
+        class="group bg-neutral-950 text-slate-300 px-7 py-3 flex items-center gap-2 rounded-lg outline-none focus:scale-105 hover:scale-105 hover:bg-neutral-900 active:scale-105 transition border border-slate-50 border-opacity-40 hover:border-opacity-100"
         href="#contact"
       >
         Contact me here
@@ -90,7 +90,7 @@ exports[`<Intro /> renders without crashing 1`] = `
         </svg>
       </a>
       <a
-        class="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border border-black/10"
+        class="group bg-slate-800 text-slate-300 hover:bg-slate-900 px-7 py-3 flex items-center gap-2 rounded-lg outline-none focus:scale-105 hover:scale-105 active:scale-105 transition cursor-pointer border border-slate-50 border-opacity-40 hover:border-opacity-100"
         download=""
         href="/CV.pdf"
       >
@@ -114,7 +114,7 @@ exports[`<Intro /> renders without crashing 1`] = `
         </svg>
       </a>
       <a
-        class="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10"
+        class="bg-neutral-950 p-4 text-slate-300 flex items-center gap-2 rounded-lg text-[1.3rem] focus:scale-[1.1] hover:scale-[1.1] hover:text-slate-50 active:scale-105 transition cursor-pointer border border-slate-50 border-opacity-40 hover:border-opacity-100"
         href="https://www.linkedin.com/in/marcin-cholewka-15b72615a/"
         target="__blank"
       >
@@ -133,7 +133,7 @@ exports[`<Intro /> renders without crashing 1`] = `
         </svg>
       </a>
       <a
-        class="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full text-[1.3rem] focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10"
+        class="bg-neutral-950 p-4 text-slate-300 flex items-center gap-2 rounded-lg text-[1.3rem] focus:scale-[1.1] hover:scale-[1.1] hover:text-slate-50 active:scale-105 transition cursor-pointer border border-slate-50 border-opacity-40 hover:border-opacity-100"
         href="https://github.com/MarcinCholewka"
         target="__blank"
       >

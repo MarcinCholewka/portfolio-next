@@ -35,7 +35,7 @@ export default function RootLayout({ children, params }: Props) {
 
   return (
     <html lang={locale}>
-      <body className={cx(inter.className, 'relative text-gray-950 h-[5000px] pt-24 sm:pt-32')}>
+      <body className={cx(inter.className, 'relative text-slate-200 pt-24 sm:pt-32')}>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Header />
           {children}

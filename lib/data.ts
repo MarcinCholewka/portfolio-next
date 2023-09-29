@@ -56,17 +56,19 @@ export const projectsData = [
     id: '1',
     title: 'SquadLocker',
     description:
-      'As part of the frontend team, I participated in the creation of a platform that will follow a process that allows users to build their own clothing store.',
-    tags: ['React', 'ROR'],
-    imageUrl: definedLearning,
+      'As part of the frontend team in Selleo, I participated in the creation of a platform that will follow a process that allows users to build their own clothing store.',
+    tags: ['HTML', 'CSS', 'JavaScript', 'React', 'ROR'],
+    imageUrl: squadlocker,
+    projectUrl: 'https://selleo.com/portfolio/custom-ecommerce',
   },
   {
     id: '2',
     title: 'Defined Careers',
     description:
-      'As part of the front-end team, I was involved in creating an eLearning platform that prepares students for the future by helping them stay engaged in lessons, encouraging critical thinking and collaboration.',
-    tags: ['React', 'TypeScript', 'Next.js', 'Tailwind', 'Redux'],
-    imageUrl: squadlocker,
+      'As part of the front-end team in Selleo, I was involved in creating an e-learning platform dedicated to students and teachers to bring real-world experience into the classroom',
+    tags: ['HTML', 'CSS', 'React', 'TypeScript', 'GraphQL', 'Tailwind', 'Redux', 'ROR'],
+    imageUrl: definedLearning,
+    projectUrl: 'https://selleo.com/portfolio/online-learning-platform',
   },
 ] as const;
 

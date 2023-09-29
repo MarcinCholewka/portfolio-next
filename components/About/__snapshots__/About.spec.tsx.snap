@@ -3,16 +3,16 @@
 exports[`<About /> renders without crashing 1`] = `
 <div>
   <section
-    class="max-w-[45rem] text-center leading-8"
+    class="max-w-[45rem] text-center leading-8 text-slate-300"
     style="opacity: 0; transform: translateY(100px) translateZ(0);"
   >
     <h2
-      class="text-3xl font-medium capitalize mb-8"
+      class="text-3xl text-slate-200 text-center font-medium capitalize mb-8"
     >
       About me
     </h2>
     <p
-      class="mb-3 "
+      class="mb-3"
     >
       I am a front-end developer with in-depth knowledge of React.js and its core principles, as well as front-end layout styling. I have strong communication skills, characterized by excellent interpersonal effectiveness in individual and team interactions. Over the last few years, I have gained experience in designing and implementing high-quality, elegant SaaS software for web and mobile applications. My core stack is React, but I also know TypeScript. I always want to learn new technologies. I am currently looking for a full-time job as a front-end developer.
     </p>
